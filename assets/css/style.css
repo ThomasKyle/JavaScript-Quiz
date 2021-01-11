@@ -78,3 +78,29 @@ h2 {
     box-shadow: none;
     transform: none;
 }
+
+.highscore-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem rgba(121, 7, 242, .75);
+}
+
+#highscore-text {
+    font-size: 2.4rem;
+    color: #000;
+}
+
+#saveScoreBtn{
+border: none;
+}

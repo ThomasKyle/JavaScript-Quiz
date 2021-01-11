@@ -1,0 +1,52 @@
+body {
+    color: #000;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(153, 0, 204);
+    font-size: 3rem;
+    min-width: 0rem;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(121, 7, 242, .75);
+    transform: scale(1.02);
+    transform: transfrom 100ms;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: #000;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: #33cc33;
+}
+
+.wrong{
+    background: #ff3300;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
